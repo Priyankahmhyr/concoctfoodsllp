@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css"> 
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+   <title>Concoct Foods</title>
+</head>
+<body>
+
+<div class="header">
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="logo.jpg" width="50px" alt=""></a>
+    </div>
+    <nav>
+        <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Blogs</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+    </nav>
+    <a href="cart.html"><img src="shopping_bag_icon.png" width="30px height
+    30px" alt=""></a>
+      <img src="menu icon.png" class="menu-icon" onclick="menutoggle()" alt="">
+       </div>
+</div>
+</div>
+
+
+
+  <div class="small-container">
+    <div class="row row-2">
+        <h2>All Products</h2>
+        <select>
+         <option>Default Shorting</option>   
+         <option>Short by Price</option>  
+         <option>Short by Popularity</option>  
+         <option>Short by Rating</option>  
+         <option>Short by Sale</option>  
+        </select>
+    </div>
+    <div class="small-container">
+    <div class="row">
+        <div class="col-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNOXfvzeuKYqxL_JzuCJ5BmWvsSrbVlVtkVc2UmmLd7o3jYmM-nyrcNL4rKl0zTR_jHtk&usqp=CAU" alt="">
+            <h4>mango and ginger</h4>
+            <p> $52.00</p>
+        </div>
+        <div class="col-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNOXfvzeuKYqxL_JzuCJ5BmWvsSrbVlVtkVc2UmmLd7o3jYmM-nyrcNL4rKl0zTR_jHtk&usqp=CAU" alt="">
+            <h4>mango and ginger</h4>
+            <p> $52.00</p>
+        </div>
+        <div class="col-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNOXfvzeuKYqxL_JzuCJ5BmWvsSrbVlVtkVc2UmmLd7o3jYmM-nyrcNL4rKl0zTR_jHtk&usqp=CAU" alt="">
+            <h4>mango and ginger</h4>
+            <p> $52.00</p>
+        </div>
+        <div class="col-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNOXfvzeuKYqxL_JzuCJ5BmWvsSrbVlVtkVc2UmmLd7o3jYmM-nyrcNL4rKl0zTR_jHtk&usqp=CAU" alt="">
+            <h4>mango and ginger</h4>
+            <p> $52.00</p>
+        </div>
+ </div>
+<div class="page-btn">
+    <span>1</span>
+    <span>2</span>
+    <!-- <span>3</span>
+    <span>4</span> -->
+    <span>&#8594;</span>
+</div>
+  </div>
+</div>
+    
+   <!-- footer -->
+<!-- footer -->
+
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <img src="logo.jpg">
+                <p>some sentence</p>
+            </div>
+            <div class="footer-col-2">
+                <h5>Download our app</h5>
+                <p>some sentence</p>
+            </div>
+            <div class="footer-col-3">
+                <h5>useful Links</h5>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Posts</li>
+                    <li>Terms and Conditions</li>
+                    <li>Policies</li>
+                </ul>
+              </div>
+              <div class="footer-col-4">
+                <h5>Follow Us</h5>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                </ul>
+              </div>
+             </div>
+             <hr>
+             <p class="copyright"><Copright 2022 -concoct Foods LLP></p>
+    </div>
+   </div>
+
+   
+
+   <!-- js for toggle menu-->
+   <script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+     if(MenuItems.style.maxHeight =="0px")
+     {
+        MenuItems.style.maxHeight = "200px";
+     }
+     else
+     {
+        MenuItems.style.maxHeight = "0px";
+     }
+    }
+   </script>
+   
+</body>
+</html>

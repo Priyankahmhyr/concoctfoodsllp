@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>All Products - Concoct Foods</title>
+   <link rel="stylesheet" href="style.css"> 
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+
+<div class="header">
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="logo.jpg" width="50px"></a>
+    </div>
+    <nav>
+        <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Blogs</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+    </nav>
+    <a href="cart.html"><img src="shopping_bag_icon.png" width="30px height
+    30px"></a>
+      <img src="menu icon.png" class="menu-icon" onclick="menutoggle()">
+       </div>
+</div>
+</div>
+
+<!-- single product details -->
+
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+<img src="Nutrition Bar.jpg" width="100%" height="500vh" id="ProductImg">
+       
+<div class="small-img-row">
+    <div class="small-img-col">
+        <img src="image1s.jpg" width="100%" height="150vh" class="small-img">
+    </div>
+    <div class="small-img-col">
+        <img src="image2s.jpg" width="100%" height="150vh" class="small-img">
+    </div>
+    <div class="small-img-col">
+        <img src="images3s.jpg" width="100%" height="150vh" class="small-img">
+    </div>
+    <div class="small-img-col">
+        <img src="image4s.jpg.crdownload" width="100%" height="150vh" class="small-img">
+    </div>
+
+</div>
+
+</div>
+<div class="col-2">
+<h3>Product Details</h3>
+<h1>Ginger and Mango</h1>
+
+<p>Each and every person loves mango. When you have a mango craving, try our vegan-based mango and ginger bar; you'll love this flavour combination.
+    Our goal has always been to make our products available to vegan clients as well. This Vegan bar is made with natural ingredients.
+    Vegan Based Ginger and Mango Bar are tasty bites of goodness, with all the good nutrients of Almonds, Chia seeds, Flax seeds, Watermelon Seeds, Sunflower seeds, Pumpkin Seeds, sweetened with organic Date paste and Honey.
+    <br>Give your kids a guilt-free, natural, healthy snack, or carry one with you to deal with a busy workplace.
+    Nuts and seeds have enormous reserves of protein, Good fibre, carbohydrates and natural fats.
+    Let's all enjoy in wholesome, nutrient-dense snacks that are good for our health, development and immunity. Each and every ingredient is delicious, fresh, flavourful and crispy.br>
+    For you to enjoy in every mouthful of our bar, we added dried cranberries and dried mango chunks. Since these bars are packed with vitamins and minerals, they help us feel satisfied for a longer period of time.
+    Consuming whole grains like Brown Rice flakes, Rice crisps, Rolled Oats can help prevent or improve several health conditions, including diabetes and heart disease.
+    Each ( )g of ourProtein bar provides you with ()% Protein, ()% Fibre, ()% Iron, ()% Magnesium, ()% Zinc, () Folates, ()% Vitamin E, ()% Vitamin K making this one of the super snack for your entire family
+    Protein-rich Bar that can be consumed anytime through the day. 
+    •	No added Sugar
+    •	No Preservatives
+    •	Processed under hygienic conditions
+    </p>
+<h4>size: some grams</h4>
+<h4> Price: $52.00</h4>
+<input type="Number" value="1">
+<a href="" class="btn">Buy Now</a>
+<a href="" class="btn">Add to Cart</a>
+        </div>
+    </div>
+</div>
+
+<!-- title -->
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Related Products</h2>
+        <p>View More</p>
+    </div>
+</div>
+
+<!-- Products -->
+  <div class="small-container">
+   
+    <div class="row">
+        <div class="col-4">
+            <img src="Nutrition Bar.jpg" alt="">
+            <h4>mango and ginger</h4>
+            <p> $52.00</p>
+        </div>
+        <div class="col-4">
+            <img src="image1s.jpg" alt="">
+            <h4>mango and ginger</h4>
+            <p> $52.00</p>
+        </div>
+        <div class="col-4">
+            <img src="image2s.jpg" alt="">
+            <h4>mango and ginger</h4>
+            <p> $52.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images3s.jpg" alt="">
+            <h4>mango and ginger</h4>
+            <p> $52.00</p>
+        </div>
+ </div>
+
+  </div>
+    
+  <!-- footer -->
+
+
+  <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <img src="logo.jpg">
+                <p>some sentance</p>
+            </div>
+            <div class="footer-col-2">
+                <h3>Download our app</h3>
+                <p>some sentance</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>useful Links</h3>
+                <ul>
+                    <li>Coupens</li>
+                    <li>Blog Posts</li>
+                    <li>Terms and COnditions</li>
+                    <li>Policies</li>
+                </ul>
+              </div>
+              <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                </ul>
+              </div>
+             </div>
+             <hr>
+             <p class="copyright">Copright 2022 -concoct Foods LLP</p>
+    </div>
+   </div>
+
+   <!-- js for toggle menu-->
+   <script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+     if(MenuItems.style.maxHeight =="0px")
+     {
+        MenuItems.style.maxHeight = "200px";
+     }
+     else
+     {
+        MenuItems.style.maxHeight = "0px";
+     }
+    }
+   </script>
+
+
+   <!-- js for product gallery -->
+   <script>
+    var productImg = document.getElementById("ProductImg");
+    var smallImg = document.getElementsByClassName("small-img");
+
+    smallImg[0].onclick = function()
+    {
+        productImg.src = smallImg[0].src;
+    }
+    smallImg[1].onclick = function()
+    {
+        productImg.src = smallImg[1].src;
+    }
+    smallImg[2].onclick = function()
+    {
+        productImg.src = smallImg[2].src;
+    }
+    smallImg[3].onclick = function()
+    {
+        productImg.src = smallImg[3].src;
+    }
+   </script>
+</body>
+</html>
